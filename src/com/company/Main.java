@@ -22,5 +22,6 @@ public class Main {
         }
         System.out.println(dublicareArr);
         System.out.println(sortedArr);
+        System.out.println("Изменение");
     }
 }
