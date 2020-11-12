@@ -1,13 +1,13 @@
 package com.company;
 
-class Scratch {
+class power {
     public static void main(String[] args) {
-        int[] nums2 = { 1,2,3,4,5 };
+        int[] n ={1,2,2} ;
+        int b = 2;
         int sum=0;
-        for(int i=0; i<nums2.length; i++) {
-            if (nums2[i]>0) {
-                sum +=nums2[i];
-            }
+
+        for (int i = 0; i < n.length; i++) {
+            sum = sum + (int)Math.pow(n[i],b);
         }
         System.out.println(sum);
     }
